@@ -1,0 +1,10 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+
+Name: arg
+Description: A library for argument parsing
+Version: 1.0.0
+Cflags: -I${includedir}
+Libs: -L${libdir} -larg
