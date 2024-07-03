@@ -1,3 +1,9 @@
+
+build/
+*.pc
+
+#### Generated ####
+
 # Prerequisites
 *.d
 
