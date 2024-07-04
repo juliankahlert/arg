@@ -1,0 +1,13 @@
+---
+gitpack:
+  name: libarg
+  category: lib
+  files:
+  - "{{prefix}}/lib/pkgconfig/arg.pc"
+  - "{{prefix}}/include/arg.h"
+  - "{{prefix}}/lib/libarg.so"
+  - "{{prefix}}/lib/libarg.a"
+  add:
+  - sh:
+    - make PREFIX={{prefix}} all
+    - sudo make PREFIX={{prefix}} install
